@@ -2,25 +2,24 @@
 
 ## Purpose
 
-This is a simple application to view and update an employee database. The application uses Express.js, Inquirer, and PostgreSQL. The app uses the pg package to connect to the PostgreSQL database.
+This is a simple E-Commerce application which uses an Express.js API and Sequelize to interact with a PostgreSQL database.
 
 ## Installation
 
-Begin by initializing the node package module by typing "npm i" into the console. Once the dependencies are installed, log into postgres in the console and run the schema.sql and seeds.sql to create and populate the tables.
+- Begin by initializing the node package module by typing "npm i" into the console.
+- Put your Postgres Username and password into the .env file.
+- Once the dependencies are installed, create the database by running the schema.sql from Postgres.
+- Seed the database by running "node seeds/index.js".
 
 ## Walkthrough Video
 
-View the walkthrough video at this link: [Walkthrough Video](https://drive.google.com/file/d/1iRHXMeX_oJzFc6bIC6NGRvdXtPSj8sB8/view)
+View the walkthrough video at this link: [Walkthrough Video](https://drive.google.com/file/d/1mu435KMmmE1htVpWyauV8WWtEQxwBB75/view)
 
 ## Instructions
 
-The user runs the application by typing "node server.js" into the console.
+Using Insomnia, the user can send API GET requests for categories, products, or tags. The data for each of these routes is displayed in formatted JSON.
 
-Using the prompts, the user can view and add departments, roles and employees. The user can also update an employee's role.
-
-## Screenshot
-
-![Application Screenshot](./images/screenshot.png)
+The user can test API POST, PUT, and DELETE routes in Insomnia to create, update, and delete data in the database.
 
 ## Contact Me
 
